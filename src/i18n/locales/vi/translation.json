@@ -14,7 +14,8 @@
     "postProcessing": "Xử lý sau",
     "history": "Lịch sử",
     "debug": "Gỡ lỗi",
-    "about": "Giới thiệu"
+    "about": "Giới thiệu",
+    "network": "Mạng"
   },
   "onboarding": {
     "subtitle": "Để bắt đầu, hãy chọn một mô hình chuyển đổi giọng nói",
@@ -494,6 +495,16 @@
           "description": "Suy luận hiệu suất cao của mô hình nhận dạng giọng nói tự động Whisper của OpenAI",
           "details": "Handy sử dụng Whisper.cpp để xử lý chuyển đổi giọng nói thành văn bản nhanh, cục bộ. Cảm ơn công việc tuyệt vời của Georgi Gerganov và các cộng tác viên."
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "Proxy"
+      },
+      "proxy": {
+        "label": "URL Proxy",
+        "description": "Proxy HTTP, HTTPS hoặc SOCKS5 cho tất cả các yêu cầu mạng (tải mô hình, gọi API).",
+        "placeholder": "http://proxy:8080 hoặc socks5://proxy:1080"
       }
     }
   },

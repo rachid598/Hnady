@@ -14,7 +14,8 @@
     "postProcessing": "Post Proceso",
     "history": "Historial",
     "debug": "Depuración",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "network": "Red"
   },
   "onboarding": {
     "subtitle": "Para comenzar, elige un modelo de transcripción",
@@ -494,6 +495,16 @@
           "description": "Inferencia de alto rendimiento del modelo de reconocimiento automático de voz Whisper de OpenAI",
           "details": "Handy usa Whisper.cpp para procesamiento de voz a texto rápido y local. Gracias al increíble trabajo de Georgi Gerganov y colaboradores."
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "Proxy"
+      },
+      "proxy": {
+        "label": "URL del proxy",
+        "description": "Proxy HTTP, HTTPS o SOCKS5 para todas las solicitudes de red (descargas de modelos, llamadas API).",
+        "placeholder": "http://proxy:8080 o socks5://proxy:1080"
       }
     }
   },

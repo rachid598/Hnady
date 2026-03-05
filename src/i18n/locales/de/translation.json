@@ -14,7 +14,8 @@
     "postProcessing": "Nachbearbeitung",
     "history": "Verlauf",
     "debug": "Debug",
-    "about": "Info"
+    "about": "Info",
+    "network": "Netzwerk"
   },
   "onboarding": {
     "subtitle": "Wähle ein Transkriptionsmodell, um loszulegen",
@@ -494,6 +495,16 @@
           "description": "Hochleistungs-Inferenz des Whisper-Spracherkennungsmodells von OpenAI",
           "details": "Handy verwendet Whisper.cpp für schnelle, lokale Sprach-zu-Text-Verarbeitung. Dank an Georgi Gerganov und die Mitwirkenden für ihre großartige Arbeit."
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "Proxy"
+      },
+      "proxy": {
+        "label": "Proxy-URL",
+        "description": "HTTP-, HTTPS- oder SOCKS5-Proxy für alle Netzwerkanfragen (Modell-Downloads, API-Aufrufe).",
+        "placeholder": "http://proxy:8080 oder socks5://proxy:1080"
       }
     }
   },
