@@ -14,7 +14,8 @@
     "postProcessing": "後処理",
     "history": "履歴",
     "debug": "デバッグ",
-    "about": "概要"
+    "about": "概要",
+    "network": "ネットワーク"
   },
   "onboarding": {
     "subtitle": "開始するには、文字起こしモデルを選択してください",
@@ -494,6 +495,16 @@
           "description": "OpenAIのWhisper自動音声認識モデルの高性能推論",
           "details": "Handyは高速でローカルな音声からテキストへの変換にWhisper.cppを使用しています。Georgi Gerganov氏と貢献者の皆様の素晴らしい仕事に感謝します。"
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "プロキシ"
+      },
+      "proxy": {
+        "label": "プロキシURL",
+        "description": "すべてのネットワークリクエスト（モデルのダウンロード、API呼び出し）用のHTTP、HTTPS、またはSOCKS5プロキシ。",
+        "placeholder": "http://proxy:8080 または socks5://proxy:1080"
       }
     }
   },

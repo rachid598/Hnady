@@ -14,7 +14,8 @@
     "history": "السجل",
     "debug": "تصحيح الأخطاء",
     "about": "حول",
-    "models": "النماذج"
+    "models": "النماذج",
+    "network": "الشبكة"
   },
   "onboarding": {
     "subtitle": "للبدء، اختر نموذج التفريغ الصوتي",
@@ -495,6 +496,16 @@
         "allLanguages": "جميع اللغات"
       },
       "noModelsMatch": "لا توجد نماذج مطابقة لهذا الفلتر."
+    },
+    "network": {
+      "groups": {
+        "proxy": "الوكيل"
+      },
+      "proxy": {
+        "label": "عنوان URL للوكيل",
+        "description": "وكيل HTTP أو HTTPS أو SOCKS5 لجميع طلبات الشبكة (تنزيل النماذج، استدعاءات API).",
+        "placeholder": "http://proxy:8080 أو socks5://proxy:1080"
+      }
     }
   },
   "footer": {

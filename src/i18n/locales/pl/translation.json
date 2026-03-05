@@ -14,7 +14,8 @@
     "postProcessing": "Postproces",
     "history": "Historia",
     "debug": "Debugowanie",
-    "about": "O programie"
+    "about": "O programie",
+    "network": "Sieć"
   },
   "onboarding": {
     "subtitle": "Aby rozpocząć, wybierz model transkrypcji",
@@ -494,6 +495,16 @@
           "description": "Wydajne wykonywanie modelu rozpoznawania mowy Whisper od OpenAI",
           "details": "Handy używa Whisper.cpp do szybkiego, lokalnego przetwarzania mowy na tekst. Dzięki niesamowitej pracy Georgi Gerganova i współtwórców."
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "Proxy"
+      },
+      "proxy": {
+        "label": "Adres URL proxy",
+        "description": "Proxy HTTP, HTTPS lub SOCKS5 dla wszystkich żądań sieciowych (pobieranie modeli, wywołania API).",
+        "placeholder": "http://proxy:8080 lub socks5://proxy:1080"
       }
     }
   },

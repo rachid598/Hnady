@@ -14,7 +14,8 @@
     "postProcessing": "후처리",
     "history": "히스토리",
     "debug": "디버그",
-    "about": "정보"
+    "about": "정보",
+    "network": "네트워크"
   },
   "onboarding": {
     "subtitle": "시작하려면 음성 인식 모델을 선택하세요",
@@ -494,6 +495,16 @@
           "description": "OpenAI의 Whisper 자동 음성 인식 모델의 고성능 추론",
           "details": "Handy는 빠르고 로컬 음성-텍스트 처리를 위해 Whisper.cpp를 사용합니다. Georgi Gerganov와 기여자들의 놀라운 작업에 감사드립니다."
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "프록시"
+      },
+      "proxy": {
+        "label": "프록시 URL",
+        "description": "모든 네트워크 요청(모델 다운로드, API 호출)을 위한 HTTP, HTTPS 또는 SOCKS5 프록시.",
+        "placeholder": "http://proxy:8080 또는 socks5://proxy:1080"
       }
     }
   },

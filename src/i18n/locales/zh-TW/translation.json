@@ -14,7 +14,8 @@
     "postProcessing": "後處理",
     "history": "歷史紀錄",
     "debug": "偵錯",
-    "about": "關於"
+    "about": "關於",
+    "network": "網路"
   },
   "onboarding": {
     "subtitle": "首先，請選擇一種模型",
@@ -494,6 +495,16 @@
           "description": "針對 OpenAI Whisper 自動語音識別模型的高效能推理引擎",
           "details": "Handy 使用 Whisper.cpp 進行快速的本機語音轉文字處理。感謝 Georgi Gerganov 和貢獻者們的傑出工作"
         }
+      }
+    },
+    "network": {
+      "groups": {
+        "proxy": "代理"
+      },
+      "proxy": {
+        "label": "代理 URL",
+        "description": "用於所有網路請求（模型下載、API 呼叫）的 HTTP、HTTPS 或 SOCKS5 代理。",
+        "placeholder": "http://proxy:8080 或 socks5://proxy:1080"
       }
     }
   },
