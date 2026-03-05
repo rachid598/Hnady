@@ -14,6 +14,7 @@
     "postProcessing": "Post-traitement",
     "history": "Historique",
     "debug": "Débogage",
+    "network": "Réseau",
     "about": "À propos"
   },
   "onboarding": {
@@ -394,6 +395,16 @@
       "unsave": "Retirer des favoris",
       "delete": "Supprimer l'entrée",
       "deleteError": "Échec de la suppression de l'entrée. Veuillez réessayer."
+    },
+    "network": {
+      "groups": {
+        "proxy": "Proxy"
+      },
+      "proxy": {
+        "label": "URL du proxy",
+        "description": "Proxy HTTP, HTTPS ou SOCKS5 pour toutes les requêtes réseau (téléchargement de modèles, appels API).",
+        "placeholder": "http://proxy:8080 ou socks5://proxy:1080"
+      }
     },
     "debug": {
       "title": "Débogage",

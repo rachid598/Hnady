@@ -14,6 +14,7 @@
     "postProcessing": "Post Process",
     "history": "History",
     "debug": "Debug",
+    "network": "Network",
     "about": "About"
   },
   "onboarding": {
@@ -394,6 +395,16 @@
       "unsave": "Remove from saved",
       "delete": "Delete entry",
       "deleteError": "Failed to delete entry. Please try again."
+    },
+    "network": {
+      "groups": {
+        "proxy": "Proxy"
+      },
+      "proxy": {
+        "label": "Proxy URL",
+        "description": "HTTP, HTTPS, or SOCKS5 proxy for all network requests (model downloads, API calls).",
+        "placeholder": "http://proxy:8080 or socks5://proxy:1080"
+      }
     },
     "debug": {
       "title": "Debug",
