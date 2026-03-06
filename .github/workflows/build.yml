@@ -286,7 +286,7 @@ jobs:
           releaseName: ${{ inputs.release-id && format('v{0}', steps.get-version.outputs.version) || '' }}
           releaseId: ${{ inputs.release-id }}
           assetNamePattern: ${{ steps.patch-release-name.outputs.platform }}
-          args: ${{ inputs.build-args }}
+          args: ${{ inputs.build-args }} ${{ !inputs.sign-binaries && contains(inputs.platform, 'windows') && format('--config {0}', '{"bundle":{"windows":{"signCommand":""}}}') || '' }}
 
       - name: Upload artifacts (macOS)
         if: inputs.upload-artifacts && contains(inputs.platform, 'macos')
