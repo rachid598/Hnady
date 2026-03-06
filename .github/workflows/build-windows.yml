@@ -12,7 +12,7 @@ jobs:
     with:
       platform: "windows-latest"
       target: "x86_64-pc-windows-msvc"
-      sign-binaries: true
+      sign-binaries: false
       upload-artifacts: true
       asset-prefix: "handy"
     secrets: inherit
