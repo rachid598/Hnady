@@ -6,6 +6,9 @@ on:
     branches:
       - "build/windows"
 
+permissions:
+  contents: write
+
 jobs:
   build-windows:
     uses: ./.github/workflows/build.yml
